@@ -21,7 +21,7 @@ var fs = require('fs');
 
 client.on('ready', function(){ // Leaked by [ @M3a4x ]
     var ms = 30000 ;
-    var setGame = [`Rezfix Community `,` Rezfix Bot By Rezfix TeaM !`];
+    var setGame = [`TMX#0001`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -258,8 +258,8 @@ var heroo = new Discord.RichEmbed()
 .setColor('#6a109d')
 .setTimestamp(new Date())
 .setThumbnail(client.user.avatarURL)
-.setTitle('Rezfix Bot Info')
-.setURL('https://discordapp.com/oauth2/authorize/?permissions=268443710&scope=bot&client_id=465885551329804288')
+.setTitle('T.M.X Bot Info')
+.setURL('')
 .setAuthor(client.user.username,client.user.avatarURL)
 .addField("**البرفكس** :",`**[ ${prefix} ]**`,true)
 .addField("**السيرفرات** :","**[ "+client.guilds.size+" ]**",true)
@@ -334,7 +334,7 @@ client.on('guildCreate', guild => { // Leaked by [ @M3a4x ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('Rezfix Bot Link Click Here .!')
+     .setTitle('T.M.X Bot Link Click Here .!')
      .setURL('https://discordapp.com/oauth2/authorize?client_id=465885551329804288&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add Rezfix Bot ✅
@@ -347,8 +347,8 @@ client.on('guildDelete', guild => { // Leaked by [ @M3a4x ]
 var message = "zg";
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
-     .setTitle('Rezfix Bot Link Click Here .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=465885551329804288&permissions=8&scope=bot')
+     .setTitle('T.M.X Bot Link Click Here .!')
+     .setURL('')
   .setDescription(`**
   Server Kicked Rezfix Bot :cry:
 اسم السيرفر: ${guild.name}
@@ -564,7 +564,7 @@ client.on('message', function(message) { // Leaked by [ @M3a4x ]
           var mmmmEmbed = new Discord.RichEmbed()
           .setAuthor(client.user.username)
           .setTitle('-  اضغط هنا !.')
-          .setURL(`https://discordapp.com/oauth2/authorize/?permissions=268443710&scope=bot&client_id=465885551329804288`)
+          .setURL(`T.M.X`)
           .setThumbnail(client.user.avatarURL)
           .setFooter(`- Requested By: ${message.author.tag}`,message.author.avatarURL);
           message.channel.send(mmmmEmbed)
